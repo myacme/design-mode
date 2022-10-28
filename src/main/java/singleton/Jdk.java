@@ -7,7 +7,7 @@ package singleton;
  * @create 2022/10/24 15:49
  */
 
-public class Test {
+public class Jdk {
 
 	public static void main(String[] args) {
 		//单例模式  饿汉式
