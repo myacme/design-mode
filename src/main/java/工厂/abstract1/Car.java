@@ -1,0 +1,13 @@
+package 工厂.abstract1;
+
+
+/**
+ * @author ljx
+ * @version 1.0.0
+ * @create 2022/10/25 14:29
+ */
+
+public abstract class Car {
+
+	public abstract String getName();
+}
