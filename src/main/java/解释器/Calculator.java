@@ -31,6 +31,11 @@ public class Calculator {
 					right = new VarExpression(String.valueOf(array[++i]));
 					stack.push(new SubExpression(left, right));
 					break;
+				case '*':
+					left = stack.pop();
+					right = new VarExpression(String.valueOf(array[++i]));
+					stack.push(new MultiplyExpression(left, right));
+					break;
 				default:
 					stack.push(new VarExpression(String.valueOf(array[i])));
 					break;
